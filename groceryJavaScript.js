@@ -32,7 +32,7 @@ for (i = 0; i < grocery.length; i++) {
   itemName = grocery[i].name;
   itemPrice = grocery[i].price;
   itemQuantity = grocery[i].quantity;
-console.log( "Item: " + itemName + "  Price: " + itemPrice + "  Quantity: " + itemQuantity);}
+console.log( "Item: " + itemName + "  Price: " + "$" + itemPrice.toFixed(2) + "  Quantity: " + itemQuantity);}
 //prints bill w/o tax and converts to 2 decimal points
 console.log ("Total bill without tax = $" + totalBillNoTax.toFixed(2));
 
